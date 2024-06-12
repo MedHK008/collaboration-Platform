@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+
+}
+.contenue{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contenue .title{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.contenue form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10%;
+}
+.contenue form .id{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 230px;
+
+}
+.contenue form .id i{
+    background-color:#233a8f ;
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 40px 0 0 40px;
+
+}
+.contenue form .id input{
+    padding-left: 10px;
+    border: none;
+    border-radius:  0 40px 40px 0 ;
+    width: 80%;
+
+}
+.contenue form .password{
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.contenue form .password i{
+    background-color:#233a8f ;
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 40px 0 0 40px;
+
+}
+.contenue form .password input{
+    padding-left: 10px;
+    border: none;
+    border-radius:  0 40px 40px 0 ;
+    width: 80%;
+
+
+}
+.contenue form button{
+    width: 230px;
+    border-radius: 50px;
+    border: none;
+    background-color: #233a8f;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+
+}
+.contenue .checked{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+
+}
+.contenue .checked p{
+    color:#00ff00;
+    margin-left: 10px;
+}
+.demande_existe {
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+
+}
+.demande_existe  p{
+    color:#FFD43B;
+    margin-left: 10px;
+}
+.collab_existe {
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+
+}
+.collab_existe  p{
+    color:#FFD43B;
+    margin-left: 10px;
+}

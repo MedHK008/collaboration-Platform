@@ -1,0 +1,37 @@
+#myForm div {
+    padding-top: 0;
+    margin-top: 0;
+    display: inline-block; /* make each div an inline block */
+    margin-right: 20px; /* add a margin between each div */
+    padding-left: 105px;
+    padding-bottom: 50px;
+    width: 30%; /* adjust the width of each div to make them fit on the same line */
+}
+#myForm label {
+display: block; /* make each label a block element */
+margin-bottom: 5px; /* add a margin between the label and the input */
+}
+#myForm input[type="text"], #myForm input[type="email"], #myForm input[type="date"], #myForm input[type="search"]{
+width: 70%; /* make the input fields take up the full width of the div */
+padding: 10px; /* add some padding to the input fields */
+border: 1px solid #ccc; /* add a border to the input fields */
+border-radius: 5px; /* add some rounded corners to the input fields */
+}
+#myForm input[type="submit"],#myForm input[type="reset"] {
+    width: 10%; 
+    padding: 10px;
+    margin-top: 10%;
+    margin-right: 50px;
+    background-color: #1114aa; 
+    color: white;
+    border-color: #ccc;
+    box-shadow: 0px 0px 10px 0px rgba(151, 139, 139, 0.2);
+    border-radius: 5px; /* add some rounded corners to the submit button */
+    cursor: pointer; /* add a pointer cursor to the submit button */
+    float:right;
+}
+#myForm input[type="reset"] {
+    margin-right: 150px;
+    background-color: white;
+    color: black;
+}

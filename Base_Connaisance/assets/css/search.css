@@ -1,0 +1,26 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    margin-top: 60px;
+    border: black 1px solid;
+    border-radius: 50px;
+    align-items: center;
+    z-index: 0;
+}
+.search i {
+    font-size: 30px;
+    margin-left: 5px;
+}
+.search input{
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+    border: none;
+}
+.search input:focus{
+    outline-style: none;
+    box-shadow: none;
+}

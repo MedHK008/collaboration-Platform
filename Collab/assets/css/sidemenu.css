@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: open sans;
+}
+
+body{
+    height: 400vh;
+    overflow-x: hidden;
+
+}
+
+i{
+    margin-right: 8px;
+}
+
+.wrapper .sidenav{
+    position: fixed;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: #D9D9D9;
+    overflow-y:scroll;
+}
+
+.wrapper .main-content {
+    margin-top: 42px;
+    width: 80vw;
+    margin-left: 20vw;
+}
+
+.picture{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display:inline-block;
+    margin: 0 10px;
+}
+
+.img{
+        padding: 0px;
+        height: 150px;
+        width: 150px;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline;
+        }
+
+button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #D9D9D9;
+    transition: 0.3s;
+}
+
+.buttons{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
+
+button:hover
+{
+    font-size: 23px;
+    transition: 0.3s;
+    cursor: pointer;
+} 
+
+.center {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+input[type="file"]{
+    display: none;
+}
+
+#uploadImgLabel{
+    text-align: center;
+    padding: 15px 22px 15px 22px ;
+    background-color: #4A68D3;
+    color :white;
+    margin-top: 20%;
+    border-radius: 12px;
+    font-size: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+label:active{
+    transform: scale(9,0);
+    transition: 1s;
+}
+
+
+section {
+    height : 100vh;
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+#title {
+    padding-bottom: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.table{
+    max-height: 40vh; 
+    overflow-y: auto; 
+    margin-bottom: 20px;
+}
+table{
+    margin-top: 0;
+    padding-top: 0;
+}

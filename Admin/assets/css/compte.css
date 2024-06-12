@@ -1,0 +1,319 @@
+.board {
+    position: fixed;
+    width: 25vw;
+    max-width: 250px;
+    height: 100vh;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    left: 0;
+    overflow-y: scroll;
+}
+.board::-webkit-scrollbar{
+    width: 15px;
+}
+.board::-webkit-scrollbar-track{
+    background-color: #4A68D3;
+}
+i{
+    margin-right: 8px;
+}
+* {
+    font-family: open sans;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0px;
+}
+.workSpace {
+    width: 80vw;
+    height: 200vh;
+    margin-left: 25vw;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+}
+a{
+    width: 100%;
+}
+button {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: #D9D9D9;;
+    border: none;
+    font-size: 22px;
+    transition: 200ms;
+}
+button:hover{
+    font-size:32px ;
+    transition: 200ms;
+}
+.buttons{
+    margin-top: 10%;
+}
+input[type="file"]{
+    display: none;
+}
+#label{
+    background-color: #4A68D3;
+    padding: 12px 40px 12px 40px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 05% ;
+    letter-spacing: 1px;
+}
+.blank{
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.Name,.Mail,.Spec,.Prenom,.Cin,.Adresse,.bDate,.password{
+    display: inline-block;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+input,select{
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+    transition: 200ms;
+}
+.row{
+    display: flex;
+    flex-direction: column;    
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+input:focus{
+    width: 230px;
+    height: 30px;
+    transition: 200ms;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+.buttons1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 60%;
+}
+#confirmer0,#confirmer1,#confirmer2,#confirmer3,#confirmer4{
+    background-color: #4A68D3;
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+#butt2{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    color: black;
+    width: 120px;
+    font-size: 20px;
+    height: 50px;
+
+
+}
+#butt2:hover{
+    width: 130px;
+}
+#confirmer0:hover{
+    width: 130px;
+}
+section{
+   height: 100vh;
+   padding: 20px;
+}
+.row1{
+    display: flex;
+    flex-direction: column;    
+    margin-left: 25%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.row1 input{
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.oldpassword,.newpassword,.confpassword{
+    display: inline-block;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.inputs1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.inputs2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+#collab-pre{
+    margin-left: 20px;
+}
+#collab tr th{
+
+    width: 150px;
+    height: 30px;
+    background-color: #4A68D3;
+    color: white;
+
+
+}
+#collab{
+    margin-top: 50px;
+}
+#collab:nth-child(even){
+    background-color: #c9c9c9;
+}
+#collab:nth-child(odd){
+    background-color: white;
+}
+
+.row4{
+    display: flex;
+    flex-direction: column;    
+    margin-left: 15%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#collab tr th{
+
+    width: 150px;
+    height: 30px;
+    background-color: #4A68D3;
+    color: white;
+
+
+}
+
+#collab tr td{
+    text-align: center;
+}
+
+#compe {
+    width: 60vw;
+}
+
+#compe tr td{
+    text-align: center;
+}
+
+#compe td{
+    width:fit-content;
+    min-width: 150px;
+}
+
+#compe tr th
+{
+    height: 30px;
+    background-color: #4A68D3;
+    color: white;
+}
+#compe{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#compe:nth-child(even){
+    background-color: #c9c9c9;
+}
+#compe:nth-child(odd){
+    background-color: white;
+}
+#des{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#projet tr td{
+    text-align: center;
+}
+
+#projet td{
+    width:fit-content;
+    min-width: 150px;
+}
+
+#projet tr th
+{
+    height: 30px;
+    background-color: #4A68D3;
+    color: white;
+}
+#projet{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 80%;
+}
+#projet:nth-child(even){
+    background-color: #c9c9c9;
+}
+#projet:nth-child(odd){
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #363434;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#demande {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 80%;
+}
+#demande tr th {
+    height: 30px;
+    background-color: #4A68D3;
+    color: white;
+}
+#demande tr td {
+    text-align: center;
+    width: fit-content;
+    min-width: 150px;
+}
+#demande:nth-child(even) {
+    background-color: #c9c9c9;
+}
+#demande:nth-child(odd) {
+    background-color: white;
+}

@@ -1,0 +1,90 @@
+.side3 {
+    width: 21vw;
+    margin-right: 10px;
+    height: max-content;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.evenements {
+    margin-top: 30px;
+    width: 90%;
+}
+.evenement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: max-content;
+    padding: 20px 10px;
+    border-radius: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.evenement p {
+    text-align: center;
+}
+.evenement .Title {
+    font-size: 30px;
+}
+
+
+.evenement .notparticiper
+{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color:#4A68D3 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.evenement .participer
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:white ;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border:1px solid black;
+}
+.evenement .notparticiper i
+{
+    margin-right: 10px;
+}
+.evenement .participer i
+{
+    margin-right: 10px;
+}
+
+.search3 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin-top: 10px;
+    align-items: center;
+    height: 30px;
+    padding: 0px 10px;
+}
+.search3 input {
+    padding-left: 10px;
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+.search3 input:focus {
+    outline-style: none;
+    box-shadow: none;
+}
